@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT 技术分享与路演"
+  short_description: "按技术与非技术听众组织内容，参考世界模型课件与路演样例制作演示文稿"
+  default_prompt: "使用 $ppt-skill 为我的分享选择受众模式和视觉风格，并根据材料制作演示文稿。"

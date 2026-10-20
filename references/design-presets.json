@@ -1,0 +1,21 @@
+{
+  "status": "provisional_original_design_guidance",
+  "note": "These are original starting values, not measurements extracted from third-party decks and not editable PPTX masters.",
+  "slide": {"width_in": 13.333333, "height_in": 7.5, "safe_margin_in": 0.5},
+  "fonts": {
+    "chinese_candidates": ["Noto Sans CJK SC", "Microsoft YaHei", "Source Han Sans SC"],
+    "latin_candidates": ["Arial", "Aptos", "Liberation Sans"],
+    "rule": "Choose installed fonts; render to check CJK glyphs and math. Do not silently assume the first candidate is available."
+  },
+  "technical": {
+    "background": "#FFFFFF", "text": "#182230", "muted": "#5D6778", "accent": "#2463A8", "secondary": "#148A86",
+    "title_pt": 34, "body_pt": 24, "caption_pt": 15, "equation_pt": 26,
+    "layouts": ["title-and-diagram", "diagram-with-annotations", "equation-and-intuition", "matched-comparison", "single-result-chart", "limitations"]
+  },
+  "nontechnical": {
+    "background": "#070E24", "text": "#F5F8FF", "muted": "#BBC8E4", "accent": "#356BFF", "secondary": "#35D7E4",
+    "cover_title_pt": 48, "title_pt": 36, "body_pt": 26, "caption_pt": 15,
+    "light_content": {"background": "#F8FAFD", "text": "#172338", "accent": "#177F9C"},
+    "layouts": ["hero-cover", "scenario-and-problem", "solution-explainer", "single-proof", "product-in-context", "milestones", "clear-ask"]
+  }
+}
